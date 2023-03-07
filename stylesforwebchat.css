@@ -14,8 +14,7 @@
         cursor: pointer;
         border: none;
         float: center;
-        height: 50px;
-    }
+        margin: 10%    }
     .form-popup {
         position: fixed;
         bottom: 0;
