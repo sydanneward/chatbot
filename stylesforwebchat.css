@@ -15,7 +15,8 @@
         border: none;
         float: center;
         width:50px;
-        height:50px;  }
+        height:50px;
+    }
     .form-popup {
         position: fixed;
         bottom: 0;
@@ -34,8 +35,12 @@
         font-family: 'Proxima Nova', sans-serif;
         font-size: 14px; 
         font-weight: normal;  
-        display: none;
-        text-align: left;        
+        display: none;       
+    }
+    .formheader {
+        padding:1; 
+        font-weight: bold; 
+        text-align: left;
     }
     .cancelbutton {
         float: right;
