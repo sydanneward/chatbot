@@ -1,17 +1,12 @@
 
     .mybutton{
         display:block;
-        font-family: 'Proxima Nova', sans-serif;
-        font-size: 14px;
-        font-weight: bold;
         background-color: #D2B766;
-        color: rgb(0, 0, 0);
         padding: 20px;
         border-radius: 20px; 
         position: fixed;
         bottom: 23px;
         right: 28px;
-        cursor: pointer;
         border: none;
         float: center;
         width:50px;
@@ -23,7 +18,7 @@
         right: 15px;
         border: 1px solid #c4c2c2;
         z-index: 9;
-        max-width: 220px;
+        max-width: 15%;
         padding: 10px;
         background-color: white;
         width: 100%;
@@ -88,6 +83,7 @@
         border-radius: 5px;
         border: none;
         border-bottom: 1px solid #000000;
+        font-weight: bold;
     }
 
     .multiselect {
