@@ -1,0 +1,157 @@
+
+    .mybutton{
+        display:flex;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #D2B766;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 20px; 
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
+        cursor: pointer;
+        border: none;
+        float: center;
+        height: 50px;
+    }
+    .form-popup {
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 1px solid #c4c2c2;
+        z-index: 9;
+        max-width: 220px;
+        padding: 10px;
+        background-color: white;
+        width: 100%;
+        margin: 5px 0 22px 0;
+        line-height: 1.5;
+        outline: none;
+        border-radius: 20px;
+        padding: 2%; 
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 14px; 
+        font-weight: normal;  
+        display: none;
+        text-align: left;        
+    }
+    .cancelbutton {
+        float: right;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        border : none;
+        background-color: #fff;
+    }
+    .inputsform {
+        border:0;
+        width: 90%;
+        border-bottom: 1px solid #000000;
+        padding-block-start: 5px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 12px;
+        margin-bottom: 10px;
+        }
+    .donebutton{
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        background-color: #ab1714;
+        color: #fff;
+        padding: 10px;            
+        border: none;
+        width: 80px;
+        border-radius: 25px;
+        margin-top: 10px;
+        }
+    select {
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        background: #ffffff;
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin: 0 auto;
+        width: 20vh;
+        float: left;
+        width: 90%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        border-bottom: 1px solid #000000;
+    }
+
+    .multiselect {
+        width: 90%;
+        }
+
+    .selectBox {
+        position: relative;
+        border: none;
+        height: 2vh;
+        }
+
+    .selectBox select {
+        width: 90%;
+        margin-bottom: 10px;
+        }
+
+    .overSelect {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        }
+
+    #mySelectOptions {
+        display: none;
+        border: 0px #d3d3d3 solid;
+        background-color: #ffffff;
+        max-height: 150px;
+        overflow-y: scroll;
+        line-height: 1;
+        padding: 10px;
+        }
+
+    #mySelectOptions label {
+        display: block;
+        font-weight: normal;
+        display: block;
+        white-space: nowrap;
+        min-height: 1.2em;
+        background-color: #fffefe3a;
+        padding: 0 2.25rem 0 .75rem;
+        }
+
+    #mySelectOptions label:hover {
+        background-color: #1e90ff;
+        }
+    .hidden{
+        display: none;
+    }
+    .thankyou-form-popup {
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 1px solid #c4c2c2;
+        z-index: 9;
+        max-width: 220px;
+        padding: 10px;
+        background-color: white;
+        width: 100%;
+        margin: 5px 0 22px 0;
+        line-height: 1.5;
+        outline: none;
+        border-radius: 20px;
+        padding: 2%; 
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 24px; 
+        font-weight: bold;  
+        display: none;
+        align-items: center;
+    }
