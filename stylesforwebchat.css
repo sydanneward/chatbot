@@ -28,7 +28,9 @@
         font-family: 'Proxima Nova', sans-serif;
         font-size: 14px; 
         font-weight: normal;  
-        display: none;       
+        display: none;
+        text-align: left;  
+        word-spacing: normal;    
     }
     .formheader {
         padding:1; 
