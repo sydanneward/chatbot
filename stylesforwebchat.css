@@ -1,6 +1,6 @@
 
     .mybutton{
-        display:flex;
+        display:block;
         font-family: 'Proxima Nova', sans-serif;
         font-size: 14px;
         font-weight: bold;
